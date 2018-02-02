@@ -1,4 +1,4 @@
-Getting and Cleaning Data
+# Getting and Cleaning Data
 
 This R script run_analysis.R make the following major tasks:
 1.	Merges the training and the test sets andcreate one data set.
