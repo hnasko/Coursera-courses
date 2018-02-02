@@ -82,5 +82,5 @@ data<-data[,-1]
 #of each variable for each activity and each subject.
 
 tidydata<-aggregate(. ~subject_ID + Type, data, mean)
-write.table(tidydata, "tidydata.txt")
+write.table(tidydata, "tidydata.txt", row.name=FALSE)
 
